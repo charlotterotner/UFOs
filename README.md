@@ -6,7 +6,16 @@ The purupose of this analysis was to be able to display UFO sighting data clearl
 
 ## Results:
 
-![image description or alt text](https://raw.githubusercontent.com/charlotterotner/Election_Analysis_Final/main/Deliverable%202.png)
+By updating our app.js and our html files we were able to create a webpage with multiple UFO search criteria options. As seen in the image below we have the following filter search criteria options:
+- Date
+- City
+- State
+- Country
+- Shape
+
+When entering criteria into one or multiple filters the page will automatically return all UFO sightings that fit that criteria on the right hand side of the page. In the image below we can see all UFO sightings for Colorado. 
+
+![image description or alt text](https://raw.githubusercontent.com/charlotterotner/UFOs/main/UFO_page_CO.png)
 
 ## Summary:
 One drawback of this webpage for the purposes of UFO analysis is that the filter searches are unrestricted text boxes. Someone could enter a criteria that they would like to filter by and it could return 0 results, just because they didn't enter the criteria on the exact way the data is set up. For example, if someone typed "California" in the state filter it would not return any UFO sighting results, while "ca" would.
